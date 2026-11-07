@@ -1,0 +1,73 @@
+{
+  "document_title": "운영체제 빠른 학습",
+  "total_pages": 8,
+  "cover_page": 1,
+  "table_of_contents_page": 2,
+  "sections": [
+    {
+      "section_title": "프로세스의 이해",
+      "start_page": 3,
+      "end_page": 4,
+      "topics": [
+        {
+          "title": "운영체제의 역할",
+          "page": 3,
+          "key_concepts": [
+            "운영체제의 역할"
+          ]
+        },
+        {
+          "title": "프로그램과 프로세스",
+          "page": 4,
+          "key_concepts": [
+            "프로그램과 프로세스"
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "CPU 스케줄링",
+      "start_page": 5,
+      "end_page": 6,
+      "topics": [
+        {
+          "title": "CPU 스케줄링 목적",
+          "page": 5,
+          "key_concepts": [
+            "CPU 스케줄링 목적"
+          ]
+        },
+        {
+          "title": "선입선처리 FCFS",
+          "page": 6,
+          "key_concepts": [
+            "선입선처리 FCFS"
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "교착상태 기초",
+      "start_page": 7,
+      "end_page": 8,
+      "topics": [
+        {
+          "title": "교착상태의 정의",
+          "page": 7,
+          "key_concepts": [
+            "교착상태의 정의"
+          ]
+        },
+        {
+          "title": "상호 배제 조건",
+          "page": 8,
+          "key_concepts": [
+            "상호 배제 조건"
+          ]
+        }
+      ]
+    }
+  ],
+  "review_page": null,
+  "notes": "목차에 표시된 대단원 범위 기준. 각 주제별 1페이지 구성."
+}

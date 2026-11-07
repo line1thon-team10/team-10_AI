@@ -1,0 +1,220 @@
+{
+  "document_title": "인공지능 기초와 머신러닝",
+  "total_pages": 30,
+  "cover_page": 1,
+  "table_of_contents_page": 2,
+  "sections": [
+    {
+      "section_title": "머신러닝 기초",
+      "start_page": 3,
+      "end_page": 11,
+      "topics": [
+        {
+          "title": "인공지능과 머신러닝",
+          "page": 3,
+          "key_concepts": [
+            "인공지능과 머신러닝"
+          ]
+        },
+        {
+          "title": "특성과 레이블",
+          "page": 4,
+          "key_concepts": [
+            "특성과 레이블"
+          ]
+        },
+        {
+          "title": "지도학습",
+          "page": 5,
+          "key_concepts": [
+            "지도학습"
+          ]
+        },
+        {
+          "title": "비지도학습",
+          "page": 6,
+          "key_concepts": [
+            "비지도학습"
+          ]
+        },
+        {
+          "title": "강화학습",
+          "page": 7,
+          "key_concepts": [
+            "강화학습"
+          ]
+        },
+        {
+          "title": "학습·검증·테스트 분리",
+          "page": 8,
+          "key_concepts": [
+            "학습·검증·테스트 분리"
+          ]
+        },
+        {
+          "title": "데이터 전처리",
+          "page": 9,
+          "key_concepts": [
+            "데이터 전처리"
+          ]
+        },
+        {
+          "title": "과적합과 과소적합",
+          "page": 10,
+          "key_concepts": [
+            "과적합과 과소적합"
+          ]
+        },
+        {
+          "title": "편향과 분산",
+          "page": 11,
+          "key_concepts": [
+            "편향과 분산"
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "지도학습 알고리즘",
+      "start_page": 12,
+      "end_page": 20,
+      "topics": [
+        {
+          "title": "선형 회귀",
+          "page": 12,
+          "key_concepts": [
+            "선형 회귀"
+          ]
+        },
+        {
+          "title": "로지스틱 회귀",
+          "page": 13,
+          "key_concepts": [
+            "로지스틱 회귀"
+          ]
+        },
+        {
+          "title": "k-최근접 이웃",
+          "page": 14,
+          "key_concepts": [
+            "k-최근접 이웃"
+          ]
+        },
+        {
+          "title": "결정 트리",
+          "page": 15,
+          "key_concepts": [
+            "결정 트리"
+          ]
+        },
+        {
+          "title": "랜덤 포레스트",
+          "page": 16,
+          "key_concepts": [
+            "랜덤 포레스트"
+          ]
+        },
+        {
+          "title": "그래디언트 부스팅",
+          "page": 17,
+          "key_concepts": [
+            "그래디언트 부스팅"
+          ]
+        },
+        {
+          "title": "서포트 벡터 머신",
+          "page": 18,
+          "key_concepts": [
+            "서포트 벡터 머신"
+          ]
+        },
+        {
+          "title": "경사 하강법",
+          "page": 19,
+          "key_concepts": [
+            "경사 하강법"
+          ]
+        },
+        {
+          "title": "정규화 기법",
+          "page": 20,
+          "key_concepts": [
+            "정규화 기법"
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "모델 평가와 활용",
+      "start_page": 21,
+      "end_page": 29,
+      "topics": [
+        {
+          "title": "혼동 행렬",
+          "page": 21,
+          "key_concepts": [
+            "혼동 행렬"
+          ]
+        },
+        {
+          "title": "정확도",
+          "page": 22,
+          "key_concepts": [
+            "정확도"
+          ]
+        },
+        {
+          "title": "정밀도",
+          "page": 23,
+          "key_concepts": [
+            "정밀도"
+          ]
+        },
+        {
+          "title": "재현율",
+          "page": 24,
+          "key_concepts": [
+            "재현율"
+          ]
+        },
+        {
+          "title": "F1 점수",
+          "page": 25,
+          "key_concepts": [
+            "F1 점수"
+          ]
+        },
+        {
+          "title": "교차 검증",
+          "page": 26,
+          "key_concepts": [
+            "교차 검증"
+          ]
+        },
+        {
+          "title": "데이터 누수",
+          "page": 27,
+          "key_concepts": [
+            "데이터 누수"
+          ]
+        },
+        {
+          "title": "모델 배포",
+          "page": 28,
+          "key_concepts": [
+            "모델 배포"
+          ]
+        },
+        {
+          "title": "모델 모니터링",
+          "page": 29,
+          "key_concepts": [
+            "모델 모니터링"
+          ]
+        }
+      ]
+    }
+  ],
+  "review_page": 30,
+  "notes": "목차에 표시된 대단원 범위 기준. 각 주제별 1페이지 구성."
+}

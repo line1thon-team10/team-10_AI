@@ -1,0 +1,19 @@
+{
+  "document_title": "운영체제 빠른 학습",
+  "total_pages": 6,
+  "scan_type": "image_only_no_text_layer",
+  "source": "realtime_analysis.pdf의 1~6페이지를 이미지로 변환",
+  "sections": [
+    {
+      "section_title": "프로세스의 이해",
+      "start_page": 3,
+      "end_page": 4
+    },
+    {
+      "section_title": "CPU 스케줄링",
+      "start_page": 5,
+      "end_page": 6
+    }
+  ],
+  "notes": "원본 8페이지 중 앞의 6페이지만 이미지화했으므로 원본 목차의 7~8페이지 안내는 스캔본 범위 밖임."
+}

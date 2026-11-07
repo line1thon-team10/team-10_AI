@@ -1,0 +1,220 @@
+{
+  "document_title": "데이터베이스 설계와 SQL",
+  "total_pages": 30,
+  "cover_page": 1,
+  "table_of_contents_page": 2,
+  "sections": [
+    {
+      "section_title": "관계형 데이터베이스 기초",
+      "start_page": 3,
+      "end_page": 11,
+      "topics": [
+        {
+          "title": "데이터베이스와 DBMS",
+          "page": 3,
+          "key_concepts": [
+            "데이터베이스와 DBMS"
+          ]
+        },
+        {
+          "title": "테이블과 행·열",
+          "page": 4,
+          "key_concepts": [
+            "테이블과 행·열"
+          ]
+        },
+        {
+          "title": "기본 키",
+          "page": 5,
+          "key_concepts": [
+            "기본 키"
+          ]
+        },
+        {
+          "title": "외래 키",
+          "page": 6,
+          "key_concepts": [
+            "외래 키"
+          ]
+        },
+        {
+          "title": "관계와 카디널리티",
+          "page": 7,
+          "key_concepts": [
+            "관계와 카디널리티"
+          ]
+        },
+        {
+          "title": "스키마와 인스턴스",
+          "page": 8,
+          "key_concepts": [
+            "스키마와 인스턴스"
+          ]
+        },
+        {
+          "title": "무결성 제약",
+          "page": 9,
+          "key_concepts": [
+            "무결성 제약"
+          ]
+        },
+        {
+          "title": "ER 모델",
+          "page": 10,
+          "key_concepts": [
+            "ER 모델"
+          ]
+        },
+        {
+          "title": "인덱스의 개념",
+          "page": 11,
+          "key_concepts": [
+            "인덱스의 개념"
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "SQL 조회와 조작",
+      "start_page": 12,
+      "end_page": 20,
+      "topics": [
+        {
+          "title": "SELECT 기본 문법",
+          "page": 12,
+          "key_concepts": [
+            "SELECT 기본 문법"
+          ]
+        },
+        {
+          "title": "WHERE 조건",
+          "page": 13,
+          "key_concepts": [
+            "WHERE 조건"
+          ]
+        },
+        {
+          "title": "ORDER BY 정렬",
+          "page": 14,
+          "key_concepts": [
+            "ORDER BY 정렬"
+          ]
+        },
+        {
+          "title": "집계 함수",
+          "page": 15,
+          "key_concepts": [
+            "집계 함수"
+          ]
+        },
+        {
+          "title": "GROUP BY",
+          "page": 16,
+          "key_concepts": [
+            "GROUP BY"
+          ]
+        },
+        {
+          "title": "HAVING 조건",
+          "page": 17,
+          "key_concepts": [
+            "HAVING 조건"
+          ]
+        },
+        {
+          "title": "INNER JOIN",
+          "page": 18,
+          "key_concepts": [
+            "INNER JOIN"
+          ]
+        },
+        {
+          "title": "LEFT JOIN",
+          "page": 19,
+          "key_concepts": [
+            "LEFT JOIN"
+          ]
+        },
+        {
+          "title": "INSERT·UPDATE·DELETE",
+          "page": 20,
+          "key_concepts": [
+            "INSERT·UPDATE·DELETE"
+          ]
+        }
+      ]
+    },
+    {
+      "section_title": "정규화와 트랜잭션",
+      "start_page": 21,
+      "end_page": 29,
+      "topics": [
+        {
+          "title": "함수 종속",
+          "page": 21,
+          "key_concepts": [
+            "함수 종속"
+          ]
+        },
+        {
+          "title": "제1정규형",
+          "page": 22,
+          "key_concepts": [
+            "제1정규형"
+          ]
+        },
+        {
+          "title": "제2정규형",
+          "page": 23,
+          "key_concepts": [
+            "제2정규형"
+          ]
+        },
+        {
+          "title": "제3정규형",
+          "page": 24,
+          "key_concepts": [
+            "제3정규형"
+          ]
+        },
+        {
+          "title": "이상 현상",
+          "page": 25,
+          "key_concepts": [
+            "이상 현상"
+          ]
+        },
+        {
+          "title": "트랜잭션 개념",
+          "page": 26,
+          "key_concepts": [
+            "트랜잭션 개념"
+          ]
+        },
+        {
+          "title": "ACID 속성",
+          "page": 27,
+          "key_concepts": [
+            "ACID 속성"
+          ]
+        },
+        {
+          "title": "COMMIT과 ROLLBACK",
+          "page": 28,
+          "key_concepts": [
+            "COMMIT과 ROLLBACK"
+          ]
+        },
+        {
+          "title": "동시성 제어",
+          "page": 29,
+          "key_concepts": [
+            "동시성 제어"
+          ]
+        }
+      ]
+    }
+  ],
+  "review_page": 30,
+  "notes": "목차에 표시된 대단원 범위 기준. 각 주제별 1페이지 구성."
+}
