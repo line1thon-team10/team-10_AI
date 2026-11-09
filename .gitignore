@@ -16,9 +16,6 @@ __pycache__/
 cache/
 *.log
 
-test_result.json
-*_result.json
-
 .vscode/
 .idea/
 
