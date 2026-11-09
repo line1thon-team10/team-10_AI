@@ -1,0 +1,196 @@
+{
+  "status": "success",
+  "replanned": true,
+  "reason": "미완료 학습을 우선 배정하고 복습·퀴즈 선후관계를 고려해 일정을 조정했습니다.",
+  "study_date": "2026-11-08",
+  "planned_pages": [
+    3,
+    4
+  ],
+  "completed_pages": [
+    3
+  ],
+  "remaining_pages": [
+    4
+  ],
+  "study_plan": {
+    "status": "success",
+    "document_title": "피뢰침 | 학습자료",
+    "start_date": "2026-11-07",
+    "target_date": "2026-11-20",
+    "daily_minutes": 60,
+    "total_study_days": 9,
+    "selected_unit_ids": [
+      "unit_01",
+      "unit_02"
+    ],
+    "priority_unit_ids": [
+      "unit_02"
+    ],
+    "schedule": [
+      {
+        "date": "2026-11-08",
+        "day_of_week": 6,
+        "total_minutes": 15,
+        "tasks": [
+          {
+            "task_type": "study",
+            "unit_id": "unit_01",
+            "unit_title": "프로세스의 이해",
+            "start_page": 3,
+            "end_page": 3,
+            "estimated_minutes": 15,
+            "description": "프로세스의 이해 학습: 운영체제는 하드웨어 자원을 관리한다",
+            "task_id": "task_0001_p3_3"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-10",
+        "day_of_week": 1,
+        "total_minutes": 15,
+        "tasks": [
+          {
+            "task_type": "study",
+            "unit_id": "unit_01",
+            "unit_title": "프로세스의 이해",
+            "start_page": 4,
+            "end_page": 4,
+            "estimated_minutes": 15,
+            "description": "프로세스의 이해 학습: 운영체제는 하드웨어 자원을 관리한다",
+            "task_id": "task_0001_p4_4"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-11",
+        "day_of_week": 2,
+        "total_minutes": 40,
+        "tasks": [
+          {
+            "task_type": "review",
+            "unit_id": "unit_01",
+            "unit_title": "프로세스의 이해",
+            "start_page": 3,
+            "end_page": 4,
+            "estimated_minutes": 20,
+            "description": "복습: 운영체제의 주요 역할은 자원 관리·보호·사용자 인터페이스 제공이다",
+            "task_id": "task_0002"
+          },
+          {
+            "task_type": "quiz",
+            "unit_id": "unit_01",
+            "unit_title": "프로세스의 이해",
+            "start_page": 3,
+            "end_page": 4,
+            "estimated_minutes": 20,
+            "description": "개념 확인 퀴즈: 프로그램은 저장된 명령어의 집합이다",
+            "task_id": "task_0003"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-12",
+        "day_of_week": 3,
+        "total_minutes": 30,
+        "tasks": [
+          {
+            "task_type": "study",
+            "unit_id": "unit_02",
+            "unit_title": "CPU 스케줄링",
+            "start_page": 5,
+            "end_page": 6,
+            "estimated_minutes": 30,
+            "description": "CPU 스케줄링 학습: CPU 스케줄링은 준비 큐에서 다음 실행 대상을 선택한다",
+            "task_id": "task_0004"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-13",
+        "day_of_week": 4,
+        "total_minutes": 30,
+        "tasks": [
+          {
+            "task_type": "review",
+            "unit_id": "unit_02",
+            "unit_title": "CPU 스케줄링",
+            "start_page": 5,
+            "end_page": 6,
+            "estimated_minutes": 30,
+            "description": "복습: CPU 스케줄링의 평가 기준은 CPU 이용률, 처리량, 응답 시간, 대기 시간이다",
+            "task_id": "task_0005"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-15",
+        "day_of_week": 6,
+        "total_minutes": 30,
+        "tasks": [
+          {
+            "task_type": "deep_study",
+            "unit_id": "unit_02",
+            "unit_title": "CPU 스케줄링",
+            "start_page": 5,
+            "end_page": 6,
+            "estimated_minutes": 30,
+            "description": "집중 학습: CPU 스케줄링의 평가 기준은 CPU 이용률, 처리량, 응답 시간, 대기 시간이다",
+            "task_id": "task_0006"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-17",
+        "day_of_week": 1,
+        "total_minutes": 30,
+        "tasks": [
+          {
+            "task_type": "review",
+            "unit_id": "unit_02",
+            "unit_title": "CPU 스케줄링",
+            "start_page": 5,
+            "end_page": 6,
+            "estimated_minutes": 30,
+            "description": "복습: 대화형 애플리케이션은 빠른 응답 시간이 중요하고 일괄 처리 작업은 높은 처리량이 중요하다",
+            "task_id": "task_0007"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-18",
+        "day_of_week": 2,
+        "total_minutes": 30,
+        "tasks": [
+          {
+            "task_type": "quiz",
+            "unit_id": "unit_02",
+            "unit_title": "CPU 스케줄링",
+            "start_page": 5,
+            "end_page": 6,
+            "estimated_minutes": 30,
+            "description": "개념 확인 퀴즈: FCFS(선입선처리)는 비선점 방식으로 먼저 도착한 프로세스를 먼저 실행한다",
+            "task_id": "task_0008"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-19",
+        "day_of_week": 3,
+        "total_minutes": 30,
+        "tasks": [
+          {
+            "task_type": "quiz",
+            "unit_id": "unit_02",
+            "unit_title": "CPU 스케줄링",
+            "start_page": 5,
+            "end_page": 6,
+            "estimated_minutes": 30,
+            "description": "개념 확인 퀴즈: 대화형 애플리케이션은 빠른 응답 시간이 중요하고 일괄 처리 작업은 높은 처리량이 중요하다",
+            "task_id": "task_0009"
+          }
+        ]
+      }
+    ]
+  }
+}
