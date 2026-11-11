@@ -2,9 +2,12 @@
 import os
 import json
 import time
+import logging
 
 from groq import Groq, APIStatusError
 
+
+logger = logging.getLogger(__name__)
 
 MODEL = "openai/gpt-oss-120b"
 MIN_REQUEST_INTERVAL = 25
@@ -99,7 +102,7 @@ class GroqService:
                         20 * (attempt + 1)
                     )
 
-                print(
+                logger.warning(
                     f"Groq 요청 대기: {wait_time:.0f}초"
                 )
 

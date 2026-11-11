@@ -6,7 +6,9 @@ from pathlib import Path
 
 import fitz
 import requests
+from dotenv import load_dotenv
 
+load_dotenv()
 
 def extract_pdf_text(file_path):
     path = Path(file_path)

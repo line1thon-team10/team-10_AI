@@ -1,10 +1,14 @@
 
 import json
+import logging
 import re
 
 from pydantic import BaseModel, ConfigDict
 
 from services.groq_client import RequestTooLargeError
+
+
+logger = logging.getLogger(__name__)
 
 
 class DocumentMetadata(BaseModel):
@@ -162,7 +166,7 @@ def analyze_with_fallback(groq, outlines, metadata):
 
         middle = len(outlines) // 2
 
-        print(
+        logger.info(
             f"{outlines[0]['page']}~"
             f"{outlines[-1]['page']}페이지 재분할"
         )
@@ -223,7 +227,7 @@ def build_document_structure(groq, pages, metadata):
 
     chunks = split_outlines(outlines, 20)
 
-    print(
+    logger.info(
         f"문서 구조를 {len(chunks)}개 구간으로 분석합니다."
     )
 
@@ -231,7 +235,7 @@ def build_document_structure(groq, pages, metadata):
     all_excluded = []
 
     for index, chunk in enumerate(chunks, start=1):
-        print(
+        logger.info(
             f"[구조 {index}/{len(chunks)}] "
             f"{chunk[0]['page']}~"
             f"{chunk[-1]['page']}페이지"

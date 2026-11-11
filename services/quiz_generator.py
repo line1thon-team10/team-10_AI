@@ -1,4 +1,5 @@
 
+import logging
 import re
 from collections import Counter
 from datetime import date
@@ -7,6 +8,9 @@ from services.groq_client import GroqService
 from services.pdf_parser import extract_pdf_text
 from services.quiz_validator import validate_quiz
 from services.quiz_quality_checker import check_quiz_quality
+
+
+logger = logging.getLogger(__name__)
 
 
 QUESTION_PROPERTIES = {
@@ -398,13 +402,13 @@ def generate_batch(
 
         last_errors = errors
 
-        print(
+        logger.info(
             f"문제 묶음 검증 실패 "
             f"({attempt + 1}/3)"
         )
 
         for error in errors:
-            print(f"- {error}")
+            logger.info(f"- {error}")
 
     raise ValueError(
         "문제 묶음 생성 실패:\n"
@@ -583,13 +587,13 @@ def repair_questions(
 
             last_errors = errors
 
-            print(
+            logger.info(
                 f"{question_id}번 수정 구조 검증 실패 "
                 f"({attempt + 1}/3)"
             )
 
             for error in errors:
-                print(f"- {error}")
+                logger.info(f"- {error}")
 
         if replacement is None:
             raise ValueError(
@@ -604,7 +608,7 @@ def repair_questions(
             for question in updated_questions
         ]
 
-        print(
+        logger.info(
             f"{question_id}번 문제 수정 완료"
         )
 
@@ -663,7 +667,7 @@ def generate_daily_quiz(
 
     service = groq_service or GroqService()
 
-    print("\n객관식 6문제 생성 중")
+    logger.info("\n객관식 6문제 생성 중")
 
     multiple_choice_questions = generate_batch(
         service=service,
@@ -672,7 +676,7 @@ def generate_daily_quiz(
         task_descriptions=task_descriptions
     )
 
-    print("단답형 및 서술형 4문제 생성 중")
+    logger.info("단답형 및 서술형 4문제 생성 중")
 
     subjective_questions = generate_batch(
         service=service,
@@ -691,7 +695,7 @@ def generate_daily_quiz(
     last_errors = []
 
     for attempt in range(max_quality_attempts):
-        print(
+        logger.info(
             f"\n전체 퀴즈 검증 "
             f"({attempt + 1}/{max_quality_attempts})"
         )
@@ -717,7 +721,7 @@ def generate_daily_quiz(
                 + "\n".join(validation["errors"])
             )
 
-        print("구조 검증 통과")
+        logger.info("구조 검증 통과")
 
         quality = check_quiz_quality(
             quiz=quiz,
@@ -734,8 +738,8 @@ def generate_daily_quiz(
                 )
             )
 
-            print("AI 품질 검증 통과")
-            print(
+            logger.info("AI 품질 검증 통과")
+            logger.info(
                 f"난이도 분포: {distribution}"
             )
 
@@ -765,10 +769,10 @@ def generate_daily_quiz(
                 "AI 품질 검증에서 통과하지 못했습니다."
             ]
 
-        print("AI 품질 검증 실패")
+        logger.info("AI 품질 검증 실패")
 
         for error in last_errors:
-            print(f"- {error}")
+            logger.info(f"- {error}")
 
         if attempt == max_quality_attempts - 1:
             break
@@ -776,7 +780,7 @@ def generate_daily_quiz(
         if not issues:
             break
 
-        print(
+        logger.info(
             "\n문제가 발견된 문항만 수정합니다."
         )
 

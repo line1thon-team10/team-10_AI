@@ -25,3 +25,12 @@ Thumbs.db
 build/
 dist/
 *.egg-info/
+
+result/
+grading_result.json
+test_result.json
+study_plan_result.json
+quiz_result.json
+quiz_public.json
+replanner_completed_result.json
+replanner_incomplete_result.json

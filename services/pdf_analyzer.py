@@ -1,6 +1,7 @@
 
-from pydantic import BaseModel, ConfigDict
+import logging
 
+from pydantic import BaseModel, ConfigDict
 from dotenv import load_dotenv
 
 from services.pdf_parser import extract_pdf_text
@@ -19,6 +20,8 @@ from services.analysis_validator import (
 )
 
 
+logger = logging.getLogger(__name__)
+
 load_dotenv()
 
 
@@ -31,7 +34,7 @@ class PDFAnalysis(BaseModel):
 
 
 def analyze_pdf(file_path):
-    print("PDF 파싱 중...")
+    logger.info("PDF 파싱 중...")
 
     total_pages, pages = extract_pdf_text(file_path)
 
@@ -42,14 +45,14 @@ def analyze_pdf(file_path):
 
     groq = GroqService()
 
-    print("문서 제목과 목차 분석 중...")
+    logger.info("문서 제목과 목차 분석 중...")
 
     metadata = extract_metadata(
         groq,
         pages
     )
 
-    print("전체 학습 단원 구조 분석 중...")
+    logger.info("전체 학습 단원 구조 분석 중...")
 
     structure = build_document_structure(
         groq,
@@ -62,7 +65,7 @@ def analyze_pdf(file_path):
         total_pages
     )
 
-    print(
+    logger.info(
         f"총 {len(structure.units)}개 학습 단원 발견"
     )
 
@@ -72,7 +75,7 @@ def analyze_pdf(file_path):
         structure.units,
         start=1
     ):
-        print(
+        logger.info(
             f"[{index}/{len(structure.units)}] "
             f"{unit.title} 분석 중..."
         )

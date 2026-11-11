@@ -1,0 +1,2183 @@
+{
+ "version": "2026-11-05",
+ "note": "1호선톤 데모 시드. 계획 11/3, 시연 기준 11/9 17:00. 점수는 calc.py(정의서 4-1·4-2·KP-01)로 계산",
+ "subjects": [
+  {
+   "id": "DS",
+   "name": "자료구조",
+   "exam": "2026-11-12",
+   "pages": 140,
+   "target": 90,
+   "goal": "A+"
+  },
+  {
+   "id": "OS",
+   "name": "운영체제",
+   "exam": "2026-11-16",
+   "pages": 120,
+   "target": 80,
+   "goal": "B+ 이상"
+  },
+  {
+   "id": "NW",
+   "name": "컴퓨터네트워크",
+   "exam": "2026-11-18",
+   "pages": 100,
+   "target": 60,
+   "goal": "통과"
+  }
+ ],
+ "units": [
+  {
+   "id": "DS1",
+   "subject": "DS",
+   "name": "배열과 리스트",
+   "page_start": 1,
+   "page_end": 35,
+   "difficulty": "하"
+  },
+  {
+   "id": "DS2",
+   "subject": "DS",
+   "name": "스택과 큐",
+   "page_start": 36,
+   "page_end": 60,
+   "difficulty": "중"
+  },
+  {
+   "id": "DS3",
+   "subject": "DS",
+   "name": "트리와 이진 탐색",
+   "page_start": 61,
+   "page_end": 95,
+   "difficulty": "상"
+  },
+  {
+   "id": "DS4",
+   "subject": "DS",
+   "name": "그래프",
+   "page_start": 96,
+   "page_end": 120,
+   "difficulty": "상"
+  },
+  {
+   "id": "DS5",
+   "subject": "DS",
+   "name": "정렬",
+   "page_start": 121,
+   "page_end": 140,
+   "difficulty": "중"
+  },
+  {
+   "id": "OS1",
+   "subject": "OS",
+   "name": "운영체제 개요",
+   "page_start": 1,
+   "page_end": 20,
+   "difficulty": "하"
+  },
+  {
+   "id": "OS2",
+   "subject": "OS",
+   "name": "프로세스와 스레드",
+   "page_start": 21,
+   "page_end": 55,
+   "difficulty": "중"
+  },
+  {
+   "id": "OS3",
+   "subject": "OS",
+   "name": "CPU 스케줄링",
+   "page_start": 56,
+   "page_end": 85,
+   "difficulty": "중"
+  },
+  {
+   "id": "OS4",
+   "subject": "OS",
+   "name": "메모리 관리",
+   "page_start": 86,
+   "page_end": 120,
+   "difficulty": "상"
+  },
+  {
+   "id": "NW1",
+   "subject": "NW",
+   "name": "네트워크 개요와 OSI 7계층",
+   "page_start": 1,
+   "page_end": 22,
+   "difficulty": "하"
+  },
+  {
+   "id": "NW2",
+   "subject": "NW",
+   "name": "데이터 링크 계층",
+   "page_start": 23,
+   "page_end": 45,
+   "difficulty": "중"
+  },
+  {
+   "id": "NW3",
+   "subject": "NW",
+   "name": "네트워크 계층",
+   "page_start": 46,
+   "page_end": 75,
+   "difficulty": "상"
+  },
+  {
+   "id": "NW4",
+   "subject": "NW",
+   "name": "전송 계층",
+   "page_start": 76,
+   "page_end": 100,
+   "difficulty": "중"
+  }
+ ],
+ "concepts": [
+  {
+   "id": "DS1-1",
+   "unit": "DS1",
+   "name": "배열",
+   "page_start": 1,
+   "page_end": 12
+  },
+  {
+   "id": "DS1-2",
+   "unit": "DS1",
+   "name": "연결 리스트",
+   "page_start": 13,
+   "page_end": 28
+  },
+  {
+   "id": "DS1-3",
+   "unit": "DS1",
+   "name": "시간 복잡도",
+   "page_start": 29,
+   "page_end": 35
+  },
+  {
+   "id": "DS2-1",
+   "unit": "DS2",
+   "name": "스택",
+   "page_start": 36,
+   "page_end": 44
+  },
+  {
+   "id": "DS2-2",
+   "unit": "DS2",
+   "name": "큐",
+   "page_start": 45,
+   "page_end": 49
+  },
+  {
+   "id": "DS2-3",
+   "unit": "DS2",
+   "name": "덱",
+   "page_start": 50,
+   "page_end": 51
+  },
+  {
+   "id": "DS2-4",
+   "unit": "DS2",
+   "name": "후위 표기식",
+   "page_start": 52,
+   "page_end": 60
+  },
+  {
+   "id": "DS3-1",
+   "unit": "DS3",
+   "name": "이진 트리",
+   "page_start": 61,
+   "page_end": 66
+  },
+  {
+   "id": "DS3-2",
+   "unit": "DS3",
+   "name": "트리 순회",
+   "page_start": 67,
+   "page_end": 71
+  },
+  {
+   "id": "DS3-3",
+   "unit": "DS3",
+   "name": "이진 탐색 트리",
+   "page_start": 72,
+   "page_end": 88
+  },
+  {
+   "id": "DS3-4",
+   "unit": "DS3",
+   "name": "AVL 트리",
+   "page_start": 89,
+   "page_end": 95
+  },
+  {
+   "id": "DS4-1",
+   "unit": "DS4",
+   "name": "그래프 표현",
+   "page_start": 96,
+   "page_end": 103
+  },
+  {
+   "id": "DS4-2",
+   "unit": "DS4",
+   "name": "DFS·BFS",
+   "page_start": 104,
+   "page_end": 112
+  },
+  {
+   "id": "DS4-3",
+   "unit": "DS4",
+   "name": "최단 경로",
+   "page_start": 113,
+   "page_end": 120
+  },
+  {
+   "id": "DS5-1",
+   "unit": "DS5",
+   "name": "퀵 정렬",
+   "page_start": 121,
+   "page_end": 127
+  },
+  {
+   "id": "DS5-2",
+   "unit": "DS5",
+   "name": "병합 정렬",
+   "page_start": 128,
+   "page_end": 134
+  },
+  {
+   "id": "DS5-3",
+   "unit": "DS5",
+   "name": "힙 정렬",
+   "page_start": 135,
+   "page_end": 140
+  },
+  {
+   "id": "OS1-1",
+   "unit": "OS1",
+   "name": "커널",
+   "page_start": 1,
+   "page_end": 10
+  },
+  {
+   "id": "OS1-2",
+   "unit": "OS1",
+   "name": "시스템 콜",
+   "page_start": 11,
+   "page_end": 20
+  },
+  {
+   "id": "OS2-1",
+   "unit": "OS2",
+   "name": "프로세스",
+   "page_start": 21,
+   "page_end": 30
+  },
+  {
+   "id": "OS2-2",
+   "unit": "OS2",
+   "name": "스레드",
+   "page_start": 31,
+   "page_end": 38
+  },
+  {
+   "id": "OS2-3",
+   "unit": "OS2",
+   "name": "동기화",
+   "page_start": 39,
+   "page_end": 55
+  },
+  {
+   "id": "OS3-1",
+   "unit": "OS3",
+   "name": "FCFS",
+   "page_start": 56,
+   "page_end": 63
+  },
+  {
+   "id": "OS3-2",
+   "unit": "OS3",
+   "name": "SJF",
+   "page_start": 64,
+   "page_end": 72
+  },
+  {
+   "id": "OS3-3",
+   "unit": "OS3",
+   "name": "라운드 로빈",
+   "page_start": 73,
+   "page_end": 85
+  },
+  {
+   "id": "OS4-1",
+   "unit": "OS4",
+   "name": "페이징",
+   "page_start": 86,
+   "page_end": 98
+  },
+  {
+   "id": "OS4-2",
+   "unit": "OS4",
+   "name": "세그멘테이션",
+   "page_start": 99,
+   "page_end": 106
+  },
+  {
+   "id": "OS4-3",
+   "unit": "OS4",
+   "name": "가상 메모리",
+   "page_start": 107,
+   "page_end": 120
+  },
+  {
+   "id": "NW1-1",
+   "unit": "NW1",
+   "name": "계층 구조",
+   "page_start": 1,
+   "page_end": 14
+  },
+  {
+   "id": "NW1-2",
+   "unit": "NW1",
+   "name": "캡슐화",
+   "page_start": 15,
+   "page_end": 22
+  },
+  {
+   "id": "NW2-1",
+   "unit": "NW2",
+   "name": "프레임",
+   "page_start": 23,
+   "page_end": 30
+  },
+  {
+   "id": "NW2-2",
+   "unit": "NW2",
+   "name": "MAC 주소",
+   "page_start": 31,
+   "page_end": 36
+  },
+  {
+   "id": "NW2-3",
+   "unit": "NW2",
+   "name": "오류 검출",
+   "page_start": 37,
+   "page_end": 45
+  },
+  {
+   "id": "NW3-1",
+   "unit": "NW3",
+   "name": "IP 주소",
+   "page_start": 46,
+   "page_end": 56
+  },
+  {
+   "id": "NW3-2",
+   "unit": "NW3",
+   "name": "서브넷",
+   "page_start": 57,
+   "page_end": 65
+  },
+  {
+   "id": "NW3-3",
+   "unit": "NW3",
+   "name": "라우팅",
+   "page_start": 66,
+   "page_end": 75
+  },
+  {
+   "id": "NW4-1",
+   "unit": "NW4",
+   "name": "TCP",
+   "page_start": 76,
+   "page_end": 88
+  },
+  {
+   "id": "NW4-2",
+   "unit": "NW4",
+   "name": "UDP",
+   "page_start": 89,
+   "page_end": 93
+  },
+  {
+   "id": "NW4-3",
+   "unit": "NW4",
+   "name": "혼잡 제어",
+   "page_start": 94,
+   "page_end": 100
+  }
+ ],
+ "questions": [
+  {
+   "id": "DS1-01",
+   "concept": "DS1-1",
+   "unit": "DS1",
+   "page": 3,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "배열에서 인덱스로 원소에 접근하는 시간 복잡도는?",
+   "choices": [
+    "O(1)",
+    "O(log n)",
+    "O(n)",
+    "O(n²)"
+   ],
+   "answer": "O(1)",
+   "explanation": "시작 주소 + 인덱스 × 원소 크기로 위치를 바로 계산해요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS1-02",
+   "concept": "DS1-1",
+   "unit": "DS1",
+   "page": 6,
+   "type": "OX",
+   "difficulty": "하",
+   "question": "배열 중간에 원소를 넣으면 뒤의 원소를 한 칸씩 옮겨야 한다.",
+   "choices": [
+    "O",
+    "X"
+   ],
+   "answer": "O",
+   "explanation": "배열은 연속된 공간이라 자리를 비우려면 뒤 원소를 밀어야 해요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS1-03",
+   "concept": "DS1-1",
+   "unit": "DS1",
+   "page": 10,
+   "type": "단답형",
+   "difficulty": "하",
+   "question": "꽉 차면 더 큰 배열을 새로 만들어 옮겨 담는 배열을 무엇이라 하나요?",
+   "choices": null,
+   "answer": "동적 배열",
+   "explanation": "크기를 늘릴 때 보통 2배 크기로 새로 만들어 복사해요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS1-04",
+   "concept": "DS1-2",
+   "unit": "DS1",
+   "page": 14,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "연결 리스트의 노드가 가지는 두 가지는?",
+   "choices": [
+    "데이터와 다음 노드 주소",
+    "인덱스와 데이터",
+    "키와 해시값",
+    "부모와 자식 주소"
+   ],
+   "answer": "데이터와 다음 노드 주소",
+   "explanation": "노드는 값과 다음 노드를 가리키는 포인터를 가져요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS1-05",
+   "concept": "DS1-2",
+   "unit": "DS1",
+   "page": 17,
+   "type": "OX",
+   "difficulty": "하",
+   "question": "단일 연결 리스트에서 k번째 원소를 찾으려면 앞에서부터 차례로 따라가야 한다.",
+   "choices": [
+    "O",
+    "X"
+   ],
+   "answer": "O",
+   "explanation": "인덱스로 바로 갈 수 없어서 O(k) 걸려요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS1-06",
+   "concept": "DS1-2",
+   "unit": "DS1",
+   "page": 20,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "연결 리스트 맨 앞에 노드를 추가하는 시간 복잡도는?",
+   "choices": [
+    "O(1)",
+    "O(log n)",
+    "O(n)",
+    "O(n log n)"
+   ],
+   "answer": "O(1)",
+   "explanation": "새 노드가 기존 머리를 가리키게 하고 머리만 바꾸면 돼요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS1-07",
+   "concept": "DS1-2",
+   "unit": "DS1",
+   "page": 23,
+   "type": "OX",
+   "difficulty": "하",
+   "question": "이중 연결 리스트의 노드는 이전 노드와 다음 노드를 모두 가리킨다.",
+   "choices": [
+    "O",
+    "X"
+   ],
+   "answer": "O",
+   "explanation": "앞뒤 포인터가 있어 양방향으로 이동할 수 있어요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS1-08",
+   "concept": "DS1-2",
+   "unit": "DS1",
+   "page": 26,
+   "type": "단답형",
+   "difficulty": "하",
+   "question": "마지막 노드가 첫 노드를 가리키는 연결 리스트는?",
+   "choices": null,
+   "answer": "원형 연결 리스트",
+   "explanation": "끝에서 다시 처음으로 이어져요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS1-09",
+   "concept": "DS1-3",
+   "unit": "DS1",
+   "page": 30,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "n번 도는 for문 안에 n번 도는 for문이 있으면 시간 복잡도는?",
+   "choices": [
+    "O(n)",
+    "O(n²)",
+    "O(2n)",
+    "O(log n)"
+   ],
+   "answer": "O(n²)",
+   "explanation": "바깥 n번 × 안쪽 n번이라 n²이에요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS1-10",
+   "concept": "DS1-3",
+   "unit": "DS1",
+   "page": 33,
+   "type": "OX",
+   "difficulty": "하",
+   "question": "빅오 표기법은 입력이 커질 때 실행 시간이 늘어나는 정도를 나타낸다.",
+   "choices": [
+    "O",
+    "X"
+   ],
+   "answer": "O",
+   "explanation": "상수와 낮은 차수 항은 빼고 증가 추세만 봐요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS2-01",
+   "concept": "DS2-1",
+   "unit": "DS2",
+   "page": 40,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "빈 스택에서 pop을 하면 어떻게 되나요?",
+   "choices": [
+    "스택 언더플로 오류",
+    "0이 나온다",
+    "맨 아래 값이 나온다",
+    "스택 오버플로 오류"
+   ],
+   "answer": "스택 언더플로 오류",
+   "explanation": "꺼낼 원소가 없어 언더플로가 나요. 그래서 pop 전에 isEmpty로 먼저 확인해요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS2-02",
+   "concept": "DS2-2",
+   "unit": "DS2",
+   "page": 46,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "큐처럼 먼저 들어간 원소가 먼저 나오는 방식은?",
+   "choices": [
+    "FIFO",
+    "LIFO",
+    "FILO",
+    "랜덤"
+   ],
+   "answer": "FIFO",
+   "explanation": "First In First Out이에요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS2-03",
+   "concept": "DS2-3",
+   "unit": "DS2",
+   "page": 50,
+   "type": "단답형",
+   "difficulty": "하",
+   "question": "앞과 뒤 양쪽에서 넣고 뺄 수 있는 자료구조는?",
+   "choices": null,
+   "answer": "덱",
+   "explanation": "Double-Ended Queue의 줄임말이에요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS2-04",
+   "concept": "DS2-1",
+   "unit": "DS2",
+   "page": 38,
+   "type": "OX",
+   "difficulty": "하",
+   "question": "스택은 가장 나중에 넣은 원소를 가장 먼저 꺼낸다.",
+   "choices": [
+    "O",
+    "X"
+   ],
+   "answer": "O",
+   "explanation": "LIFO 구조예요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS2-05",
+   "concept": "DS2-2",
+   "unit": "DS2",
+   "page": 48,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "배열로 큐를 만들 때 원형 큐를 쓰는 이유는?",
+   "choices": [
+    "앞쪽 빈 공간을 다시 쓰려고",
+    "정렬하려고",
+    "탐색을 빠르게 하려고",
+    "메모리를 더 쓰려고"
+   ],
+   "answer": "앞쪽 빈 공간을 다시 쓰려고",
+   "explanation": "꺼낸 자리를 다시 쓰도록 끝과 처음을 이어요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS3-01",
+   "concept": "DS3-1",
+   "unit": "DS3",
+   "page": 62,
+   "type": "OX",
+   "difficulty": "하",
+   "question": "이진 트리의 각 노드는 자식을 최대 2개 가진다.",
+   "choices": [
+    "O",
+    "X"
+   ],
+   "answer": "O",
+   "explanation": "왼쪽·오른쪽 자식 최대 2개예요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS3-02",
+   "concept": "DS3-1",
+   "unit": "DS3",
+   "page": 64,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "높이가 h(루트 높이 0)인 포화 이진 트리의 노드 수는?",
+   "choices": [
+    "2^(h+1) − 1",
+    "2^h",
+    "h²",
+    "2h + 1"
+   ],
+   "answer": "2^(h+1) − 1",
+   "explanation": "각 높이마다 노드가 2배씩 늘어서 1+2+…+2^h예요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS3-03",
+   "concept": "DS3-2",
+   "unit": "DS3",
+   "page": 68,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "루트 A, A의 왼쪽 B, 오른쪽 C, B의 왼쪽 D인 트리를 중위 순회한 결과는?",
+   "choices": [
+    "D B A C",
+    "A B D C",
+    "D B C A",
+    "A B C D"
+   ],
+   "answer": "D B A C",
+   "explanation": "왼쪽 서브트리 → 루트 → 오른쪽 서브트리 순서예요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS3-04",
+   "concept": "DS3-2",
+   "unit": "DS3",
+   "page": 69,
+   "type": "단답형",
+   "difficulty": "하",
+   "question": "루트를 가장 먼저 방문하는 순회는?",
+   "choices": null,
+   "answer": "전위 순회",
+   "explanation": "루트 → 왼쪽 → 오른쪽 순서예요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS3-05",
+   "concept": "DS3-2",
+   "unit": "DS3",
+   "page": 71,
+   "type": "OX",
+   "difficulty": "하",
+   "question": "후위 순회는 루트를 가장 마지막에 방문한다.",
+   "choices": [
+    "O",
+    "X"
+   ],
+   "answer": "O",
+   "explanation": "왼쪽 → 오른쪽 → 루트 순서예요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS2-06",
+   "concept": "DS2-4",
+   "unit": "DS2",
+   "page": 52,
+   "type": "단답형",
+   "difficulty": "하",
+   "question": "후위 표기식 3 4 + 2 * 의 계산 결과는?",
+   "choices": null,
+   "answer": "14",
+   "explanation": "3+4=7을 먼저 하고 7×2=14예요. 숫자는 스택에 넣고 연산자가 나오면 두 개를 꺼내 계산해요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS2-07",
+   "concept": "DS2-4",
+   "unit": "DS2",
+   "page": 54,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "중위 표기식 A + B * C를 후위 표기식으로 바꾸면?",
+   "choices": [
+    "A B C * +",
+    "A B + C *",
+    "+ A * B C",
+    "A B * C +"
+   ],
+   "answer": "A B C * +",
+   "explanation": "곱셈이 먼저라 B C *가 먼저 묶여요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS2-08",
+   "concept": "DS2-1",
+   "unit": "DS2",
+   "page": 42,
+   "type": "OX",
+   "difficulty": "하",
+   "question": "스택의 push와 pop은 모두 O(1)이다.",
+   "choices": [
+    "O",
+    "X"
+   ],
+   "answer": "O",
+   "explanation": "맨 위에서만 넣고 빼서 상수 시간이에요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS2-09",
+   "concept": "DS2-2",
+   "unit": "DS2",
+   "page": 47,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "큐에서 원소를 꺼내는 연산의 이름은?",
+   "choices": [
+    "dequeue",
+    "pop",
+    "push",
+    "peek"
+   ],
+   "answer": "dequeue",
+   "explanation": "넣기는 enqueue, 꺼내기는 dequeue예요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS2-10",
+   "concept": "DS2-1",
+   "unit": "DS2",
+   "page": 44,
+   "type": "단답형",
+   "difficulty": "하",
+   "question": "괄호 짝 검사에 주로 쓰는 자료구조는?",
+   "choices": null,
+   "answer": "스택",
+   "explanation": "여는 괄호를 넣고 닫는 괄호가 나오면 꺼내 비교해요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS3-06",
+   "concept": "DS3-3",
+   "unit": "DS3",
+   "page": 82,
+   "type": "서술형",
+   "difficulty": "하",
+   "question": "자식이 2개인 노드를 이진 탐색 트리에서 삭제하는 과정을 설명하세요.",
+   "choices": null,
+   "answer": "오른쪽 서브트리의 최솟값(후속자)을 찾아 삭제할 노드 자리에 넣고, 후속자를 원래 자리에서 삭제한다. 후속자는 왼쪽 자식이 없으므로 자식이 0개 또는 1개인 경우로 처리한다.",
+   "explanation": "후속자로 바꾸는 단계와 후속자를 원래 자리에서 지우는 단계가 모두 있어야 해요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS3-07",
+   "concept": "DS3-3",
+   "unit": "DS3",
+   "page": 74,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "이진 탐색 트리를 중위 순회하면 어떤 순서로 방문하나요?",
+   "choices": [
+    "오름차순",
+    "내림차순",
+    "입력 순서",
+    "레벨 순서"
+   ],
+   "answer": "오름차순",
+   "explanation": "왼쪽 < 루트 < 오른쪽이라 중위 순회는 오름차순이에요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS3-08",
+   "concept": "DS3-3",
+   "unit": "DS3",
+   "page": 79,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "편향 트리에서 탐색의 최악 시간 복잡도는?",
+   "choices": [
+    "O(n)",
+    "O(log n)",
+    "O(1)",
+    "O(n log n)"
+   ],
+   "answer": "O(n)",
+   "explanation": "한쪽으로 치우치면 연결 리스트와 같아져요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS3-09",
+   "concept": "DS3-3",
+   "unit": "DS3",
+   "page": 75,
+   "type": "단답형",
+   "difficulty": "하",
+   "question": "BST에서 가장 작은 값은 어디에 있나요?",
+   "choices": null,
+   "answer": "가장 왼쪽 노드",
+   "explanation": "왼쪽 자식이 없을 때까지 왼쪽으로 내려가요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS3-10",
+   "concept": "DS3-3",
+   "unit": "DS3",
+   "page": 78,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "균형 잡힌 BST에서 탐색의 평균 시간 복잡도는?",
+   "choices": [
+    "O(log n)",
+    "O(n)",
+    "O(1)",
+    "O(n²)"
+   ],
+   "answer": "O(log n)",
+   "explanation": "한 번 비교할 때마다 탐색 범위가 절반으로 줄어요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS2-P1",
+   "concept": "DS2-4",
+   "unit": "DS2",
+   "page": 55,
+   "type": "객관식",
+   "difficulty": "중",
+   "question": "후위 표기식 5 1 2 + 4 * + 3 − 의 결과는?",
+   "choices": [
+    "14",
+    "12",
+    "18",
+    "10"
+   ],
+   "answer": "14",
+   "explanation": "1+2=3, 3×4=12, 5+12=17, 17−3=14예요.",
+   "source": "pick"
+  },
+  {
+   "id": "DS2-P2",
+   "concept": "DS2-1",
+   "unit": "DS2",
+   "page": 43,
+   "type": "서술형",
+   "difficulty": "중",
+   "question": "스택 두 개로 큐를 만드는 방법을 설명하세요.",
+   "choices": null,
+   "answer": "넣을 때는 입력 스택에 push한다. 꺼낼 때 출력 스택이 비어 있으면 입력 스택의 원소를 모두 꺼내 출력 스택에 옮긴 뒤 출력 스택에서 pop한다.",
+   "explanation": "옮기면서 순서가 뒤집혀 먼저 넣은 원소가 먼저 나와요.",
+   "source": "pick"
+  },
+  {
+   "id": "DS2-P3",
+   "concept": "DS2-2",
+   "unit": "DS2",
+   "page": 49,
+   "type": "단답형",
+   "difficulty": "중",
+   "question": "크기 n인 배열 원형 큐에서 front == rear를 빈 상태로 쓰면 최대 몇 개를 저장할 수 있나요?",
+   "choices": null,
+   "answer": "n − 1",
+   "explanation": "가득 찬 상태와 빈 상태를 구분하려고 한 칸을 비워 둬요.",
+   "source": "pick"
+  },
+  {
+   "id": "DS2-P4",
+   "concept": "DS2-3",
+   "unit": "DS2",
+   "page": 51,
+   "type": "OX",
+   "difficulty": "중",
+   "question": "덱 하나로 스택과 큐를 모두 흉내 낼 수 있다.",
+   "choices": [
+    "O",
+    "X"
+   ],
+   "answer": "O",
+   "explanation": "한쪽 끝만 쓰면 스택, 양쪽을 나눠 쓰면 큐가 돼요.",
+   "source": "pick"
+  },
+  {
+   "id": "DS2-P5",
+   "concept": "DS2-4",
+   "unit": "DS2",
+   "page": 58,
+   "type": "객관식",
+   "difficulty": "중",
+   "question": "중위 표기식을 후위 표기식으로 바꿀 때 연산자를 잠시 담아 두는 자료구조는?",
+   "choices": [
+    "스택",
+    "큐",
+    "힙",
+    "해시 테이블"
+   ],
+   "answer": "스택",
+   "explanation": "우선순위가 낮은 연산자가 나올 때까지 스택에 쌓아 둬요.",
+   "source": "pick"
+  },
+  {
+   "id": "OS1-01",
+   "concept": "OS1-1",
+   "unit": "OS1",
+   "page": 3,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "운영체제의 핵심으로 항상 메모리에 올라가 있는 부분은?",
+   "choices": [
+    "커널",
+    "셸",
+    "컴파일러",
+    "드라이버 설치 파일"
+   ],
+   "answer": "커널",
+   "explanation": "자원 관리와 보호를 맡는 핵심이 커널이에요.",
+   "source": "daily"
+  },
+  {
+   "id": "OS1-02",
+   "concept": "OS1-1",
+   "unit": "OS1",
+   "page": 6,
+   "type": "OX",
+   "difficulty": "하",
+   "question": "사용자 모드 프로그램은 하드웨어에 직접 접근할 수 없다.",
+   "choices": [
+    "O",
+    "X"
+   ],
+   "answer": "O",
+   "explanation": "보호를 위해 커널을 거쳐야 해요.",
+   "source": "daily"
+  },
+  {
+   "id": "OS1-03",
+   "concept": "OS1-2",
+   "unit": "OS1",
+   "page": 12,
+   "type": "단답형",
+   "difficulty": "하",
+   "question": "사용자 프로그램이 커널 기능을 요청하는 방법은?",
+   "choices": null,
+   "answer": "시스템 콜",
+   "explanation": "파일 열기, 프로세스 생성 등은 시스템 콜로 요청해요.",
+   "source": "daily"
+  },
+  {
+   "id": "OS1-04",
+   "concept": "OS1-2",
+   "unit": "OS1",
+   "page": 15,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "다음 중 시스템 콜이 아닌 것은?",
+   "choices": [
+    "printf()",
+    "fork()",
+    "read()",
+    "open()"
+   ],
+   "answer": "printf()",
+   "explanation": "printf는 라이브러리 함수이고, 안에서 write 시스템 콜을 불러요.",
+   "source": "daily"
+  },
+  {
+   "id": "OS1-05",
+   "concept": "OS1-2",
+   "unit": "OS1",
+   "page": 18,
+   "type": "OX",
+   "difficulty": "하",
+   "question": "시스템 콜이 호출되면 CPU는 커널 모드로 바뀐다.",
+   "choices": [
+    "O",
+    "X"
+   ],
+   "answer": "O",
+   "explanation": "트랩으로 커널 모드로 들어갔다가 끝나면 사용자 모드로 돌아와요.",
+   "source": "daily"
+  },
+  {
+   "id": "OS2-01",
+   "concept": "OS2-1",
+   "unit": "OS2",
+   "page": 22,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "실행 중인 프로그램을 무엇이라 하나요?",
+   "choices": [
+    "프로세스",
+    "스레드",
+    "커널",
+    "명령어"
+   ],
+   "answer": "프로세스",
+   "explanation": "메모리에 올라와 실행 중인 프로그램이 프로세스예요.",
+   "source": "daily"
+  },
+  {
+   "id": "OS2-02",
+   "concept": "OS2-1",
+   "unit": "OS2",
+   "page": 25,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "프로세스 상태 중 CPU를 받기를 기다리는 상태는?",
+   "choices": [
+    "준비(ready)",
+    "실행(running)",
+    "대기(waiting)",
+    "종료"
+   ],
+   "answer": "준비(ready)",
+   "explanation": "대기(waiting)는 입출력 같은 사건을 기다리는 상태예요.",
+   "source": "daily"
+  },
+  {
+   "id": "OS2-03",
+   "concept": "OS2-1",
+   "unit": "OS2",
+   "page": 28,
+   "type": "단답형",
+   "difficulty": "하",
+   "question": "프로세스 정보를 담는 커널 자료구조는?",
+   "choices": null,
+   "answer": "PCB",
+   "explanation": "Process Control Block이에요.",
+   "source": "daily"
+  },
+  {
+   "id": "OS2-04",
+   "concept": "OS2-2",
+   "unit": "OS2",
+   "page": 32,
+   "type": "OX",
+   "difficulty": "하",
+   "question": "같은 프로세스의 스레드들은 코드·데이터·힙 영역을 공유한다.",
+   "choices": [
+    "O",
+    "X"
+   ],
+   "answer": "O",
+   "explanation": "스택과 레지스터만 스레드마다 따로 있어요.",
+   "source": "daily"
+  },
+  {
+   "id": "OS2-05",
+   "concept": "OS2-2",
+   "unit": "OS2",
+   "page": 34,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "멀티스레드가 멀티프로세스보다 문맥 교환 비용이 작은 이유는?",
+   "choices": [
+    "메모리 공간을 공유해서",
+    "스레드가 더 작아서",
+    "CPU가 하나라서",
+    "커널을 안 거쳐서"
+   ],
+   "answer": "메모리 공간을 공유해서",
+   "explanation": "주소 공간을 바꿀 필요가 없어서 비용이 작아요.",
+   "source": "daily"
+  },
+  {
+   "id": "OS2-06",
+   "concept": "OS2-3",
+   "unit": "OS2",
+   "page": 44,
+   "type": "서술형",
+   "difficulty": "하",
+   "question": "뮤텍스와 세마포어의 차이를 설명하세요.",
+   "choices": null,
+   "answer": "뮤텍스는 잠금을 가진 하나의 스레드만 임계 구역에 들어가고 잠근 스레드만 풀 수 있다. 세마포어는 카운터로 정한 개수만큼 동시에 들어갈 수 있고 다른 스레드가 signal로 풀 수 있다.",
+   "explanation": "동시에 들어갈 수 있는 수(1개 vs N개)와 누가 풀 수 있는지가 핵심이에요.",
+   "source": "daily"
+  },
+  {
+   "id": "OS2-07",
+   "concept": "OS2-3",
+   "unit": "OS2",
+   "page": 40,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "두 스레드가 같은 변수를 동시에 고쳐 결과가 달라지는 상황은?",
+   "choices": [
+    "경쟁 조건",
+    "교착 상태",
+    "기아 상태",
+    "문맥 교환"
+   ],
+   "answer": "경쟁 조건",
+   "explanation": "실행 순서에 따라 결과가 달라지는 상황이에요.",
+   "source": "daily"
+  },
+  {
+   "id": "OS2-08",
+   "concept": "OS2-2",
+   "unit": "OS2",
+   "page": 37,
+   "type": "OX",
+   "difficulty": "하",
+   "question": "사용자 수준 스레드는 커널이 직접 관리한다.",
+   "choices": [
+    "O",
+    "X"
+   ],
+   "answer": "X",
+   "explanation": "사용자 수준 스레드는 라이브러리가 관리하고 커널은 모를 수 있어요.",
+   "source": "daily"
+  },
+  {
+   "id": "OS2-09",
+   "concept": "OS2-3",
+   "unit": "OS2",
+   "page": 41,
+   "type": "단답형",
+   "difficulty": "하",
+   "question": "한 번에 하나의 스레드만 실행해야 하는 코드 구간은?",
+   "choices": null,
+   "answer": "임계 구역",
+   "explanation": "공유 자원을 건드리는 구간이에요.",
+   "source": "daily"
+  },
+  {
+   "id": "OS2-10",
+   "concept": "OS2-3",
+   "unit": "OS2",
+   "page": 45,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "세마포어 값이 0일 때 wait()를 호출하면?",
+   "choices": [
+    "값이 양수가 될 때까지 기다린다",
+    "바로 통과한다",
+    "값이 −1이 되고 통과한다",
+    "오류가 난다"
+   ],
+   "answer": "값이 양수가 될 때까지 기다린다",
+   "explanation": "다른 스레드가 signal을 해야 깨어나요.",
+   "source": "daily"
+  },
+  {
+   "id": "OS2-11",
+   "concept": "OS2-3",
+   "unit": "OS2",
+   "page": 48,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "교착 상태의 4가지 조건이 아닌 것은?",
+   "choices": [
+    "선점 가능",
+    "상호 배제",
+    "점유와 대기",
+    "순환 대기"
+   ],
+   "answer": "선점 가능",
+   "explanation": "조건은 비선점이에요. 빼앗을 수 있으면 교착이 풀려요.",
+   "source": "daily"
+  },
+  {
+   "id": "OS2-12",
+   "concept": "OS2-3",
+   "unit": "OS2",
+   "page": 50,
+   "type": "단답형",
+   "difficulty": "하",
+   "question": "공유 자원 접근을 한 객체 안에 묶어 한 번에 하나만 들어가게 하는 동기화 도구는?",
+   "choices": null,
+   "answer": "모니터",
+   "explanation": "모니터 안의 함수는 한 번에 하나의 스레드만 실행해요.",
+   "source": "daily"
+  },
+  {
+   "id": "OS2-13",
+   "concept": "OS2-3",
+   "unit": "OS2",
+   "page": 52,
+   "type": "OX",
+   "difficulty": "하",
+   "question": "순환 대기를 막으면 교착 상태를 예방할 수 있다.",
+   "choices": [
+    "O",
+    "X"
+   ],
+   "answer": "O",
+   "explanation": "네 조건 중 하나만 깨도 교착은 생기지 않아요.",
+   "source": "daily"
+  },
+  {
+   "id": "OS2-14",
+   "concept": "OS2-3",
+   "unit": "OS2",
+   "page": 53,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "교착 상태 회피에 쓰는 대표 알고리즘은?",
+   "choices": [
+    "은행원 알고리즘",
+    "라운드 로빈",
+    "LRU",
+    "다익스트라"
+   ],
+   "answer": "은행원 알고리즘",
+   "explanation": "안전 상태일 때만 자원을 내줘요.",
+   "source": "daily"
+  },
+  {
+   "id": "OS2-15",
+   "concept": "OS2-3",
+   "unit": "OS2",
+   "page": 55,
+   "type": "OX",
+   "difficulty": "하",
+   "question": "생산자-소비자 문제에서 버퍼가 가득 차면 생산자가 기다려야 한다.",
+   "choices": [
+    "O",
+    "X"
+   ],
+   "answer": "O",
+   "explanation": "빈 칸이 생길 때까지 생산자는 기다려요.",
+   "source": "daily"
+  },
+  {
+   "id": "OS3-01",
+   "concept": "OS3-1",
+   "unit": "OS3",
+   "page": 57,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "FCFS에서 짧은 작업이 긴 작업 뒤에서 오래 기다리는 현상은?",
+   "choices": [
+    "호위 효과",
+    "기아 상태",
+    "교착 상태",
+    "스래싱"
+   ],
+   "answer": "호위 효과",
+   "explanation": "Convoy effect라고 해요.",
+   "source": "daily"
+  },
+  {
+   "id": "OS3-02",
+   "concept": "OS3-1",
+   "unit": "OS3",
+   "page": 59,
+   "type": "단답형",
+   "difficulty": "하",
+   "question": "도착 시간 0, 1, 2에 실행 시간 8, 4, 2인 P1, P2, P3를 FCFS로 돌리면 P3의 대기 시간은?",
+   "choices": null,
+   "answer": "10",
+   "explanation": "P3는 12에 시작하고 2에 도착했으니 12 − 2 = 10이에요.",
+   "source": "daily"
+  },
+  {
+   "id": "OS3-03",
+   "concept": "OS3-1",
+   "unit": "OS3",
+   "page": 61,
+   "type": "OX",
+   "difficulty": "하",
+   "question": "FCFS는 비선점 방식이다.",
+   "choices": [
+    "O",
+    "X"
+   ],
+   "answer": "O",
+   "explanation": "한 번 CPU를 받으면 끝날 때까지 써요.",
+   "source": "daily"
+  },
+  {
+   "id": "OS3-04",
+   "concept": "OS3-2",
+   "unit": "OS3",
+   "page": 65,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "평균 대기 시간이 가장 짧은 것으로 알려진 스케줄링은?",
+   "choices": [
+    "SJF",
+    "FCFS",
+    "라운드 로빈",
+    "우선순위"
+   ],
+   "answer": "SJF",
+   "explanation": "짧은 작업부터 처리하면 평균 대기 시간이 최소가 돼요.",
+   "source": "daily"
+  },
+  {
+   "id": "OS3-05",
+   "concept": "OS3-2",
+   "unit": "OS3",
+   "page": 67,
+   "type": "OX",
+   "difficulty": "하",
+   "question": "SJF는 실행 시간을 미리 알아야 한다는 한계가 있다.",
+   "choices": [
+    "O",
+    "X"
+   ],
+   "answer": "O",
+   "explanation": "실제로는 이전 실행 시간으로 예측해서 써요.",
+   "source": "daily"
+  },
+  {
+   "id": "NW1-01",
+   "concept": "NW1-1",
+   "unit": "NW1",
+   "page": 2,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "OSI 7계층에서 가장 아래 계층은?",
+   "choices": [
+    "물리 계층",
+    "데이터 링크 계층",
+    "네트워크 계층",
+    "응용 계층"
+   ],
+   "answer": "물리 계층",
+   "explanation": "전기 신호로 비트를 보내는 계층이에요.",
+   "source": "daily"
+  },
+  {
+   "id": "NW1-02",
+   "concept": "NW1-1",
+   "unit": "NW1",
+   "page": 4,
+   "type": "OX",
+   "difficulty": "하",
+   "question": "계층을 나누면 한 계층을 바꿔도 다른 계층에 영향이 적다.",
+   "choices": [
+    "O",
+    "X"
+   ],
+   "answer": "O",
+   "explanation": "계층끼리 정해진 방식으로만 주고받아서예요.",
+   "source": "daily"
+  },
+  {
+   "id": "NW1-03",
+   "concept": "NW1-1",
+   "unit": "NW1",
+   "page": 5,
+   "type": "단답형",
+   "difficulty": "하",
+   "question": "OSI 4계층의 이름은?",
+   "choices": null,
+   "answer": "전송 계층",
+   "explanation": "TCP·UDP가 있는 계층이에요.",
+   "source": "daily"
+  },
+  {
+   "id": "NW1-04",
+   "concept": "NW1-1",
+   "unit": "NW1",
+   "page": 6,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "HTTP가 속한 계층은?",
+   "choices": [
+    "응용 계층",
+    "전송 계층",
+    "네트워크 계층",
+    "물리 계층"
+   ],
+   "answer": "응용 계층",
+   "explanation": "사용자 프로그램이 쓰는 프로토콜이에요.",
+   "source": "daily"
+  },
+  {
+   "id": "NW1-05",
+   "concept": "NW1-1",
+   "unit": "NW1",
+   "page": 8,
+   "type": "OX",
+   "difficulty": "하",
+   "question": "TCP/IP 모델은 4계층으로 나눈다.",
+   "choices": [
+    "O",
+    "X"
+   ],
+   "answer": "O",
+   "explanation": "네트워크 접근, 인터넷, 전송, 응용 4계층이에요.",
+   "source": "daily"
+  },
+  {
+   "id": "NW1-06",
+   "concept": "NW1-1",
+   "unit": "NW1",
+   "page": 10,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "라우터가 주로 동작하는 계층은?",
+   "choices": [
+    "네트워크 계층",
+    "물리 계층",
+    "전송 계층",
+    "응용 계층"
+   ],
+   "answer": "네트워크 계층",
+   "explanation": "IP 주소를 보고 경로를 정해요.",
+   "source": "daily"
+  },
+  {
+   "id": "NW1-07",
+   "concept": "NW1-1",
+   "unit": "NW1",
+   "page": 13,
+   "type": "OX",
+   "difficulty": "하",
+   "question": "스위치는 MAC 주소를 보고 프레임을 전달한다.",
+   "choices": [
+    "O",
+    "X"
+   ],
+   "answer": "O",
+   "explanation": "스위치는 데이터 링크 계층 장비예요.",
+   "source": "daily"
+  },
+  {
+   "id": "NW1-08",
+   "concept": "NW1-2",
+   "unit": "NW1",
+   "page": 16,
+   "type": "단답형",
+   "difficulty": "하",
+   "question": "상위 계층 데이터에 헤더를 붙여 아래 계층으로 내려보내는 과정은?",
+   "choices": null,
+   "answer": "캡슐화",
+   "explanation": "받는 쪽은 반대로 헤더를 떼는 역캡슐화를 해요.",
+   "source": "daily"
+  },
+  {
+   "id": "NW1-09",
+   "concept": "NW1-2",
+   "unit": "NW1",
+   "page": 19,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "전송 계층의 데이터 단위는?",
+   "choices": [
+    "세그먼트",
+    "패킷",
+    "프레임",
+    "비트"
+   ],
+   "answer": "세그먼트",
+   "explanation": "네트워크 계층은 패킷, 데이터 링크 계층은 프레임이에요.",
+   "source": "daily"
+  },
+  {
+   "id": "NW1-10",
+   "concept": "NW1-2",
+   "unit": "NW1",
+   "page": 21,
+   "type": "OX",
+   "difficulty": "하",
+   "question": "받는 쪽에서는 헤더를 떼며 위 계층으로 올리는 역캡슐화가 일어난다.",
+   "choices": [
+    "O",
+    "X"
+   ],
+   "answer": "O",
+   "explanation": "각 계층이 자기 헤더만 읽고 떼요.",
+   "source": "daily"
+  },
+  {
+   "id": "NW2-01",
+   "concept": "NW2-1",
+   "unit": "NW2",
+   "page": 24,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "데이터 링크 계층의 데이터 단위는?",
+   "choices": [
+    "프레임",
+    "패킷",
+    "세그먼트",
+    "메시지"
+   ],
+   "answer": "프레임",
+   "explanation": "헤더와 트레일러가 붙은 단위예요.",
+   "source": "daily"
+  },
+  {
+   "id": "NW2-02",
+   "concept": "NW2-1",
+   "unit": "NW2",
+   "page": 27,
+   "type": "OX",
+   "difficulty": "하",
+   "question": "프레임의 트레일러에는 오류 검출용 값이 들어간다.",
+   "choices": [
+    "O",
+    "X"
+   ],
+   "answer": "O",
+   "explanation": "보통 CRC 값이 들어가요.",
+   "source": "daily"
+  },
+  {
+   "id": "NW2-03",
+   "concept": "NW2-2",
+   "unit": "NW2",
+   "page": 32,
+   "type": "단답형",
+   "difficulty": "하",
+   "question": "MAC 주소는 몇 비트인가요?",
+   "choices": null,
+   "answer": "48비트",
+   "explanation": "16진수 12자리로 써요.",
+   "source": "daily"
+  },
+  {
+   "id": "NW2-04",
+   "concept": "NW2-2",
+   "unit": "NW2",
+   "page": 34,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "IP 주소로 MAC 주소를 알아내는 프로토콜은?",
+   "choices": [
+    "ARP",
+    "DNS",
+    "DHCP",
+    "ICMP"
+   ],
+   "answer": "ARP",
+   "explanation": "같은 네트워크에 누가 이 IP인지 물어봐요.",
+   "source": "daily"
+  },
+  {
+   "id": "NW2-05",
+   "concept": "NW2-2",
+   "unit": "NW2",
+   "page": 36,
+   "type": "OX",
+   "difficulty": "하",
+   "question": "MAC 주소는 네트워크 카드에 정해진 물리 주소다.",
+   "choices": [
+    "O",
+    "X"
+   ],
+   "answer": "O",
+   "explanation": "제조사가 정해서 넣어요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS4-01",
+   "concept": "DS4-2",
+   "unit": "DS4",
+   "page": 106,
+   "type": "단답형",
+   "difficulty": "하",
+   "question": "BFS에서 다음에 방문할 정점을 담아 두는 자료구조는?",
+   "choices": null,
+   "answer": "큐",
+   "explanation": "가까운 정점부터 차례로 방문하려고 먼저 넣은 것을 먼저 꺼내요.",
+   "source": "daily"
+  },
+  {
+   "id": "DS5-01",
+   "concept": "DS5-2",
+   "unit": "DS5",
+   "page": 130,
+   "type": "객관식",
+   "difficulty": "하",
+   "question": "병합 정렬의 시간 복잡도는?",
+   "choices": [
+    "O(n log n)",
+    "O(n²)",
+    "O(n)",
+    "O(log n)"
+   ],
+   "answer": "O(n log n)",
+   "explanation": "반으로 나누는 깊이 log n마다 n개를 합쳐요.",
+   "source": "daily"
+  }
+ ],
+ "attempts": [
+  {
+   "date": "2026-11-03",
+   "question": "DS1-01",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-03",
+   "question": "DS1-02",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-03",
+   "question": "DS1-03",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-03",
+   "question": "DS1-04",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-03",
+   "question": "DS1-05",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-03",
+   "question": "OS1-01",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-03",
+   "question": "OS1-02",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-03",
+   "question": "OS1-03",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-03",
+   "question": "OS1-04",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-03",
+   "question": "OS1-05",
+   "confidence": "애매",
+   "correct": true
+  },
+  {
+   "date": "2026-11-04",
+   "question": "DS1-06",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-04",
+   "question": "DS1-07",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-04",
+   "question": "DS1-08",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-04",
+   "question": "DS1-09",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-04",
+   "question": "DS1-10",
+   "confidence": "애매",
+   "correct": true
+  },
+  {
+   "date": "2026-11-05",
+   "question": "DS1-10",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-05",
+   "question": "DS2-01",
+   "confidence": "확실",
+   "correct": false
+  },
+  {
+   "date": "2026-11-05",
+   "question": "DS2-02",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-05",
+   "question": "DS2-03",
+   "confidence": "애매",
+   "correct": true
+  },
+  {
+   "date": "2026-11-05",
+   "question": "DS2-04",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-05",
+   "question": "DS2-05",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-05",
+   "question": "NW1-01",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-05",
+   "question": "NW1-02",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-05",
+   "question": "NW1-03",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-05",
+   "question": "NW1-04",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-05",
+   "question": "NW1-05",
+   "confidence": "애매",
+   "correct": true
+  },
+  {
+   "date": "2026-11-06",
+   "question": "OS1-05",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-06",
+   "question": "OS2-01",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-06",
+   "question": "OS2-02",
+   "confidence": "확실",
+   "correct": false
+  },
+  {
+   "date": "2026-11-06",
+   "question": "OS2-03",
+   "confidence": "애매",
+   "correct": true
+  },
+  {
+   "date": "2026-11-06",
+   "question": "OS2-04",
+   "confidence": "확실",
+   "correct": false
+  },
+  {
+   "date": "2026-11-06",
+   "question": "OS2-05",
+   "confidence": "애매",
+   "correct": false
+  },
+  {
+   "date": "2026-11-07",
+   "question": "DS2-01",
+   "confidence": "애매",
+   "correct": true
+  },
+  {
+   "date": "2026-11-07",
+   "question": "DS2-03",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-07",
+   "question": "DS3-01",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-07",
+   "question": "DS3-02",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-07",
+   "question": "DS3-03",
+   "confidence": "확실",
+   "correct": false
+  },
+  {
+   "date": "2026-11-07",
+   "question": "DS3-04",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-07",
+   "question": "DS3-05",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-07",
+   "question": "OS2-02",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-07",
+   "question": "OS2-03",
+   "confidence": "애매",
+   "correct": true
+  },
+  {
+   "date": "2026-11-07",
+   "question": "OS2-04",
+   "confidence": "애매",
+   "correct": false
+  },
+  {
+   "date": "2026-11-07",
+   "question": "OS2-05",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-07",
+   "question": "OS2-06",
+   "confidence": "애매",
+   "correct": false,
+   "essay_score": 52
+  },
+  {
+   "date": "2026-11-07",
+   "question": "OS2-07",
+   "confidence": "확실",
+   "correct": false
+  },
+  {
+   "date": "2026-11-07",
+   "question": "OS2-08",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-07",
+   "question": "OS2-09",
+   "confidence": "애매",
+   "correct": true
+  },
+  {
+   "date": "2026-11-07",
+   "question": "OS2-10",
+   "confidence": "확실",
+   "correct": false
+  },
+  {
+   "date": "2026-11-08",
+   "question": "DS3-03",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-08",
+   "question": "DS2-01",
+   "confidence": "확실",
+   "correct": false
+  },
+  {
+   "date": "2026-11-08",
+   "question": "DS1-10",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-08",
+   "question": "DS2-06",
+   "confidence": "확실",
+   "correct": false
+  },
+  {
+   "date": "2026-11-08",
+   "question": "DS2-07",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-08",
+   "question": "DS2-08",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-08",
+   "question": "DS2-09",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-08",
+   "question": "DS2-10",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-08",
+   "question": "OS2-03",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-08",
+   "question": "OS2-04",
+   "confidence": "확실",
+   "correct": false
+  },
+  {
+   "date": "2026-11-08",
+   "question": "OS2-06",
+   "confidence": "확실",
+   "correct": false,
+   "essay_score": 62
+  },
+  {
+   "date": "2026-11-08",
+   "question": "OS2-07",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-08",
+   "question": "OS2-09",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-08",
+   "question": "OS2-10",
+   "confidence": "애매",
+   "correct": true
+  },
+  {
+   "date": "2026-11-08",
+   "question": "OS2-11",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-08",
+   "question": "OS2-12",
+   "confidence": "확실",
+   "correct": false
+  },
+  {
+   "date": "2026-11-08",
+   "question": "OS2-13",
+   "confidence": "애매",
+   "correct": true
+  },
+  {
+   "date": "2026-11-08",
+   "question": "OS2-14",
+   "confidence": "확실",
+   "correct": false
+  },
+  {
+   "date": "2026-11-08",
+   "question": "OS2-15",
+   "confidence": "확실",
+   "correct": false
+  },
+  {
+   "date": "2026-11-08",
+   "question": "NW1-05",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-08",
+   "question": "NW1-06",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-08",
+   "question": "NW1-07",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-08",
+   "question": "NW1-08",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-08",
+   "question": "NW1-09",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-08",
+   "question": "NW1-10",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-09",
+   "question": "DS2-06",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-09",
+   "question": "DS2-01",
+   "confidence": "애매",
+   "correct": true
+  },
+  {
+   "date": "2026-11-09",
+   "question": "DS3-06",
+   "confidence": "확실",
+   "correct": false,
+   "essay_score": 70
+  },
+  {
+   "date": "2026-11-09",
+   "question": "DS3-07",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-09",
+   "question": "DS3-08",
+   "confidence": "확실",
+   "correct": false
+  },
+  {
+   "date": "2026-11-09",
+   "question": "DS3-09",
+   "confidence": "확실",
+   "correct": true
+  },
+  {
+   "date": "2026-11-09",
+   "question": "DS3-10",
+   "confidence": "확실",
+   "correct": true
+  }
+ ],
+ "pending_quizzes_1109": {
+  "DS": [
+   "DS2-06",
+   "DS2-01",
+   "DS3-06",
+   "DS3-07",
+   "DS3-08",
+   "DS3-09",
+   "DS3-10"
+  ],
+  "OS": [
+   "OS3-01",
+   "OS3-02",
+   "OS3-03",
+   "OS3-04",
+   "OS3-05",
+   "OS2-04",
+   "OS2-06",
+   "OS2-10",
+   "OS2-12",
+   "OS2-13",
+   "OS2-14",
+   "OS2-15",
+   "OS1-05"
+  ],
+  "NW": [
+   "NW2-01",
+   "NW2-02",
+   "NW2-03",
+   "NW2-04",
+   "NW2-05"
+  ]
+ },
+ "pick_result_backup": {
+  "subject": "DS",
+  "unit": "DS2",
+  "difficulty": "중",
+  "questions": [
+   "DS2-P1",
+   "DS2-P2",
+   "DS2-P3",
+   "DS2-P4",
+   "DS2-P5"
+  ]
+ }
+}

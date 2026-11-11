@@ -1,4 +1,9 @@
 
+import logging
+
+logger = logging.getLogger(__name__)
+
+
 def validate_structure(structure, total_pages):
     units = sorted(
         structure.units,
@@ -48,13 +53,13 @@ def validate_structure(structure, total_pages):
     overlapping = covered_pages & excluded_pages
 
     if overlapping:
-        print(
+        logger.warning(
             f"중복 분류된 페이지 발견: {sorted(overlapping)}"
         )
 
         excluded_pages -= overlapping
 
-        print(
+        logger.warning(
             "중복 페이지를 제외 목록에서 제거했습니다."
         )
 
